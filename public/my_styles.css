@@ -3,7 +3,8 @@
   box-sizing: border-box;
 }
 .button { 
-  border:2px teal solid; 
+  border:4px teal solid; 
+  margin: 10px;
   color: teal;
   border-radius: 5px; 
   text-decoration: none;
@@ -25,20 +26,30 @@
   .player-card {
     border: thin green solid;
     width: 49%;
+    text-align: center;
   }
   .computer-card {
     border: thin red solid;
     width: 49%;
+    text-align: center;
+  }
+  .result {
+    width: 100%;
+    text-align: center;
+    border: thin blue solid;
   }
  
   .row {
     display: flex;
     justify-content: space-between;
+    margin: 5px;
+
     
   }
   .one-third {
     width: 30%;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: Comfortaa;
+
   }

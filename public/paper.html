@@ -5,27 +5,33 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="my_styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
+  <div class="row">
+    <div class="one-third">
+      <a class="button" href="/rock">
+        Play Rock
+      </a>
+    </div>
+  
+    <div class="one-third">
+      <a class="button" href="/paper" onmouseover="class='hover';">
+        Play Paper
+      </a>
+    </div>
+  
+    <div class="one-third">
+      <a class="button" href="/scissors">
+        Play Scissors
+      </a>
+    </div>
   </div>
-
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
-
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
-
   <h2>
     We played paper!
   </h2>
